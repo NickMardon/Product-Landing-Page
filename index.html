@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Custom Stylesheet-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,10 +26,10 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Watch</a>
+            <a class="nav-link" href="#video">Watch</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Buy</a>
+            <a class="nav-link" href="#">Pre-Order</a>
             </li>
         </ul>
         </div>
@@ -47,16 +51,20 @@
   </div>
 <!--Video-->
 <div id="videoContainer" class="container">
-    <div class="row">
-        <div id="textBox " class="col-md-6 col-sm-12"> 
-            <h3>Smooth, Bold, Essence</h3>
-            <p>Bicycle rights venmo man bun bitters, heirloom poke tumeric taxidermy selvage franzen YOLO flannel marfa. Freegan raw denim pug poutine scenester lyft kinfolk leggings letterpress vexillologist gluten-free before they sold out ramps portland PBR&B.</p>
+    <div id="watchContent" class="row">
+        <div id="textBox" class="col-md-6 col-sm-12"> 
+            <h3 id="textBoxHeader">Smooth, Bold, Essence</h3>
+            <p id="textBoxContent">Ennui crucifix raclette skateboard, knausgaard cray wolf iPhone letterpress pug. Art party paleo trust fund, you probably haven't heard of them 90's chicharrones hot chicken venmo humblebrag. Ennui mlkshk gochujang franzen cliche, kombucha distillery YOLO direct trade. Trust fund poke DIY authentic franzen 90's. Heirloom 3 wolf moon paleo cronut tumblr, salvia poutine glossier vaporware.</p>
         </div>
         <div id="videoBox " class="col-md-6 col-sm-12"> 
-            <iframe></iframe>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/AExPNuKZuDc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>
+<!--Pre-Order-->
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

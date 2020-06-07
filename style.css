@@ -1,4 +1,9 @@
-header {
+#header {
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
     background-color: black;
 }
 
@@ -9,5 +14,29 @@ header {
 }
 
 #videoContainer {
-    background-color: black;
+    background-color: #212121;
+    height: 40vh;
+    display: flex;
+}
+
+#textBox {
+    color: whitesmoke;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+
+#textBoxHeader {
+    font-family: 'Playball', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#textBoxContent {
+    margin-top: 1.5rem;
+}
+
+#video {
+    padding: 2rem;
+    justify-content: center;
 }
