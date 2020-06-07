@@ -1,0 +1,13 @@
+header {
+    background-color: black;
+}
+
+.jumbotron {
+    background-image: url(IMGs/snakePic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#videoContainer {
+    background-color: black;
+}
