@@ -7,16 +7,11 @@ body {
     background-color: black;
 }
 
-.jumbotron {
-    background-image: url(IMGs/snakePic.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 #videoContainer {
     background-color: #212121;
     height: 40vh;
     display: flex;
+    margin-top: 3rem;
 }
 
 #textBox {
@@ -39,4 +34,10 @@ body {
 #video {
     padding: 2rem;
     justify-content: center;
+}
+
+#preOrderContainer {
+    background-color: white;
+    margin-top: 3rem;
+    padding: 2rem;
 }
